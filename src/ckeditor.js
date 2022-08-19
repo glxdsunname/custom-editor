@@ -9,7 +9,7 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave.js';
-import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices.js';
@@ -50,7 +50,7 @@ ClassicEditor.builtinPlugins = [
 	Alignment,
 	AutoImage,
 	Autosave,
-	Base64UploadAdapter,
+	SimpleUploadAdapter,
 	BlockQuote,
 	Bold,
 	CloudServices,
